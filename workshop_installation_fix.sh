@@ -21,7 +21,6 @@ chmod +x chopper
 #bin/filtlong -h
 
 cd 
-mkdir CONSENT && cd CONSENT
 wget https://github.com/morispi/CONSENT/releases/download/v2.2.2/CONSENT.tar.gz
 tar xvzf CONSENT.tar.gz
 rm CONSENT.tar.gz
