@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install build-essentials ssh filtlong zlib1g-dev 
+sudo apt install build-essential ssh filtlong zlib1g-dev 
 
 pip install numpy scipy matplotlib scikit-learn pandas jinja2 h5py nanopack
 
