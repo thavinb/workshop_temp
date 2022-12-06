@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt install build-essential ssh filtlong zlib1g-dev 
+sudo apt install build-essential ssh filtlong zlib1g-dev -y
 
-pip install numpy scipy matplotlib scikit-learn pandas jinja2 h5py nanopack -y
+pip install numpy scipy matplotlib scikit-learn pandas jinja2 h5py nanopack
 
 git clone https://github.com/yfukasawa/LongQC.git
 cd LongQC/minimap2-coverage && make
